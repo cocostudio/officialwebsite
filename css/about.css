@@ -5,6 +5,31 @@ body {
 	color: black;
 	font-size: 30px;
 }
+.container1 {
+	display:grid;
+}
+#nav-bar {
+	list-style: none;
+	padding: 0;
+	margin: 10px;
+	text-align: center;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+}
+.button {
+	background: #e9ccb1;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+}
+.button:hover {
+	background: white;
+	color: #e9ccb1;
+}
+a {
+	text-decoration: none;
+}
 .main {
 	display: grid;
 	grid-gap: 0px;
