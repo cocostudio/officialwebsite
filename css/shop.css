@@ -7,6 +7,38 @@ body {
 a {
 	text-decoration: none;
 }
+.container {
+	margin-bottom: 10px;
+}
+.button {
+	background: #e9ccb1;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+.button:hover {
+	background: white;
+	color: #e9ccb1;
+}
+#button {
+	background: white;
+	color: #e9ccb1;
+	font-size: 70px;
+	padding: 10px;
+}
+#button:hover {
+	background: #e9ccb1;
+	color: white;
+}
+#nav-bar {
+	list-style: none;
+	padding: 0;
+	margin: 10px;
+	text-align: center;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+}
 .button {
 	background: #e9ccb1;
 	color: white;
@@ -17,7 +49,7 @@ a {
 	background: white;
 	color: #e9ccb1;
 }
-#nav-bar {
+#nav-bar1 {
 	list-style: none;
 	padding: 0;
 	margin: 10px;
@@ -109,7 +141,7 @@ a {
 /* PARALAX */
 .pimg1 {
 	min-height: 100vh;
-	background-image: url(../images/shop/COVER.jpg);	
+	background-image: url(../images/shop/cover.jpg);	
 }
 .pimg2 {
 	min-height: 100vh;
