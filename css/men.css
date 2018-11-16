@@ -1,0 +1,54 @@
+body {
+	text-align: center;
+	font-family: Rockwell;
+	font-size: 30px;
+	color: black;
+}
+.container {
+	display: grid;
+	grid-template-column: 1fr 1fr 1fr;
+	grid-template-row: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+.one {
+	grid-column: 1/4;
+	grid-row: 1/2;
+	text-align: center;
+	padding: 30px;
+}
+.two {
+	grid-column: 1/2;
+	grid-row: 2/3;
+	text-align: center;
+	padding: 30px;
+}
+.three {
+	grid-column: 2/3;
+	grid-row: 2/3;
+	text-align: center;
+	padding: 30px;
+}
+.four {
+	grid-column: 3/4;
+	grid-row: 2/3;
+	text-align: center;
+	padding: 30px;
+}
+.five {
+	grid-column: 1/2;
+	grid-row: 3/4;
+	text-align: center;
+	padding: 30px;
+}
+.six {
+	grid-column: 2/3;
+	grid-row: 3/4;
+	text-align: center;
+	padding: 30px;
+}
+.seven {
+	grid-column: 3/4;
+	grid-row: 3/4;
+	text-align: center;
+	padding: 30px;
+}
