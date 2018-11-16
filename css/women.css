@@ -4,17 +4,47 @@ body {
 	font-size: 30px;
 	color: black;
 }
+.container1 {
+	display:grid;
+}
+#nav-bar {
+	list-style: none;
+	padding: 0;
+	margin: 10px;
+	text-align: center;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+}
+.button {
+	background: #e9ccb1;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+}
+.button:hover {
+	background: white;
+	color: #e9ccb1;
+}
 .container {
 	display: grid;
 	grid-template-column: 1fr 1fr;
 	grid-template-row: 1fr 1fr 1fr 1fr;
 	grid-gap: 20px;
 }
+a {
+	text-decoration: none;
+}
+
 .one {
 	grid-column: 1/3;
 	grid-row: 1/2;
 	text-align: center;
 	padding: 30px;
+}
+.one h1 {
+	color:gray;
+	font-size: 90px;
 }
 .two {
 	background-color: white;
