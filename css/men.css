@@ -4,6 +4,31 @@ body {
 	font-size: 30px;
 	color: black;
 }
+.container1 {
+	display:grid;
+}
+#nav-bar {
+	list-style: none;
+	padding: 0;
+	margin: 10px;
+	text-align: center;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+}
+.button {
+	background: #e9ccb1;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+}
+.button:hover {
+	background: white;
+	color: #e9ccb1;
+}
+a {
+	text-decoration: none;
+}
 .container {
 	display: grid;
 	grid-template-column: 1fr 1fr;
