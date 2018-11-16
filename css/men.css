@@ -41,6 +41,10 @@ a {
 	text-align: center;
 	padding: 30px;
 }
+.one h1 {
+	color:gray;
+	font-size: 90px;
+}
 .two {
 	background-color: white;
 	grid-column: 1/2;
